@@ -1,0 +1,56 @@
+
+import statistics
+heart_rate = []
+for x in heart_rate: print(x)
+int = input(heart_rate)
+
+hour1 = input("Hour 1")
+heart_rate.append(hour1)
+
+hour2 = input("Hour 2")
+heart_rate.append(hour2)
+
+hour3 = input("Hour 3")
+heart_rate.append(hour3)
+
+hour4 = input("Hour 4")
+heart_rate.append(hour4)
+
+hour5 = input("Hour 5")
+heart_rate.append(hour5)
+
+hour6 = input("Hour 6")
+heart_rate.append(hour6)
+
+hour7 = input("Hour 7")
+heart_rate.append(hour7)
+
+hour8 = input("Hour 8")
+heart_rate.append(hour8)
+
+
+print("Maximum of heart rate in list is")
+print(max(heart_rate))
+
+
+print("Minimum of heart rate in list is")
+print(min(heart_rate))
+
+
+print("Average heart rate of list is")
+heart_rate = [85,74,79,81,75,77,83,76]
+print((sum(heart_rate))/(len(heart_rate)))
+
+
+print("Standard deviation of heart rate of list is")
+heart_rate = [85,74,79,81,75,77,83,76]
+print(statistics.stdev((heart_rate)))
+
+
+print= input("Maximum of heart rate in list:")
+
+print= input("Minimum of heart rate in list:")
+
+print= input("Average heart rate in list:")
+
+print= input("Standard deviation of heart rate in list:")
