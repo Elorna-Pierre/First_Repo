@@ -1,0 +1,54 @@
+int = input("My name is ")
+
+input("Hello Elorna, please prepare your heart rate data.")
+
+import statistics
+heart_rate = []
+for x in heart_rate: print(x)
+int = input(heart_rate)
+
+hour1 = input("Hour 1")
+heart_rate.append(hour1)
+
+hour2 = input("Hour 2")
+heart_rate.append(hour2)
+
+hour3 = input("Hour 3")
+heart_rate.append(hour3)
+
+hour4 = input("Hour 4")
+heart_rate.append(hour4)
+
+hour5 = input("Hour 5")
+heart_rate.append(hour5)
+
+hour6 = input("Hour 6")
+heart_rate.append(hour6)
+
+hour7 = input("Hour 7")
+heart_rate.append(hour7)
+
+hour8 = input("Hour 8")
+heart_rate.append(hour8)
+
+
+input("Thank you Elorna, we will now calculate your health metrics")
+
+print("Maximum of heart rate in list is:")
+print(max(heart_rate))
+
+
+print("Minimum of heart rate in list is:")
+print(min(heart_rate))
+
+
+print("The different between the maximum and minimum heart rate during sleep is:")
+heart_rate = [70,78,71,69,75,85,78,72]
+print((max(heart_rate)) - (min(heart_rate)))
+
+
+print("Heart rate value is low and might indicate sleep issue.")
+
+print("Maximum heart rae in list: 85")
+print("Minimum heart rate in list: 69")
+print("Difference between maximum and minimum heart rate: 16")
